@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 3% 10% 10% 10%;
+  background-color: #E5E5E5;
+  font-family: 'Roboto';
+}
+
+.header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 8rem;
+}
+
+.header_container img {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  padding-right: 20px;
+}
+
+.header_container .header_bar {
+  border-left: 5px solid #0054A6;
+  height: 60px;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  margin: auto;
+}
+
+.header_container .header_title {
+  font-weight: bold;
+  color: #0054A6;
+  padding-left: 20px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin: auto;
+}
+
+.main_container {
+  background-color: #ffffff;
+  padding: 0rem 5rem;
+  -webkit-box-shadow: 0px 0px 10px 3px #c7c7c7;
+  box-shadow: 0px 0px 10px 3px #c7c7c7;
+}
+
+.main_container .form_container .form_title {
+  font-weight: 400;
+  color: #828282;
+  margin: 1rem 0 1rem 0;
+}
+
+.main_container .form_container .form_separator {
+  border-bottom: 1px solid #828282;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.main_container .form_container .form_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main_container .form_container .form_row .input_group {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  padding-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+.main_container .form_container .form_row .input_group:last-child {
+  padding: 0;
+}
+
+.main_container .form_container .input_group input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 3% 1%;
+}
+
+.main_container .form_container .input_group label {
+  display: block;
+  color: #828282;
+  margin-bottom: 0.5rem;
+}
+
+.main_container .form_container textarea {
+  width: 100%;
+  height: 5rem;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

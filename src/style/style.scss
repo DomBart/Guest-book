@@ -1,0 +1,42 @@
+$color2: #0054a6;
+$body-color: #e5e5e5;
+$text-color: #828282;
+
+body {
+  margin: 0;
+  padding: 3% 10% 10% 10%;
+  background-color: $body-color;
+  font-family: "Roboto";
+}
+
+.header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 8rem;
+  img {
+    flex-basis: 20%;
+    padding-right: 20px;
+  }
+  .header_bar {
+    border-left: 5px solid $base-color;
+    height: 60px;
+    flex-basis: auto;
+    margin: auto;
+  }
+  .header_title {
+    font-weight: bold;
+    color: $color2;
+    padding-left: 20px;
+    flex-grow: 2;
+    flex-basis: 30%;
+    margin: auto;
+  }
+}
+.main_container {
+  background-color: #ffffff;
+  padding: 0rem 5rem;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(199, 199, 199, 1);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(199, 199, 199, 1);
+  box-shadow: 0px 0px 10px 3px rgba(199, 199, 199, 1);
+}
